@@ -6,7 +6,7 @@
     "autoload": {
         "psr-4": {
             "Nokanoki\\HelloWorldLaravelPackage\\": "src/",
-            "Nokanoki\\HelloWorldLaravelPackage\\Database\\Factories\\" : "database/factories/"
+            "Nokanoki\\HelloWorldLaravelPackage\\Database\\Factories\\" : "Database/Factories/"
         }
     },
     "extra": {
