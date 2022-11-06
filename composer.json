@@ -1,0 +1,28 @@
+{
+    "name": "nokanoki/hello-world-laravel-package",
+    "description": "just testing",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nokanoki\\HelloWorldLaravelPackage\\": "src/",
+            "Nokanoki\\HelloWorldLaravelPackage\\Database\\Factories\\" : "database/factories"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "Nokanoki\\HelloWorldLaravelPackage\\TestServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "eugene",
+            "email": "nokanoki@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "7"
+    }
+}
